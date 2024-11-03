@@ -1,20 +1,18 @@
 import Link from 'next/link';
+import Image from 'next/image';
 export default function Navbar (){
     return (
-        <div className="flex justify-around bg-blue-500">
-            <h1 className="text-2xl text-red-500 font-bold">
+        <div className="flex justify-around bg-gray-200 ">
             
-                <img src="https://cdn.vectorstock.com/i/2000v/19/26/cloud-solar-logo-template-creative-panel-vector-40461926.avif" style={{ width: '15rem' }} alt=""/>
-            </h1>
             <h2>
                 <ul className="flex gap-x-20" >
-                <li className="text-red-500"><Link href="./">home</Link>
+                <li className="text-black"><Link href="./">Home</Link>
                    
                     </li>
                     <li>
-                    <Link href="./contactus">contactus</Link>
+                    <Link href="./contactus">Sport</Link>
                     </li>
-                    <li > <Link href="./about">about</Link>
+                    <li > <Link href="./about">About</Link>
                     
                     </li>                
                 </ul>
